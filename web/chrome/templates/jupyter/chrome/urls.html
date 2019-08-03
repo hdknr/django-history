@@ -1,0 +1,9 @@
+<table>
+{% for obj in qs %}
+<tr>
+  <td>{{ obj.id }}</td>
+  <td><a href="{{ obj.url }}">{{ obj.title }}</a></td>
+  <td>{{ obj.last_visit_at }} </td>
+</tr>
+{% endfor %}
+</table>

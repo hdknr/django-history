@@ -1,0 +1,38 @@
+# msgpack
+msgpack
+
+# Django
+django
+django-extensions
+
+# Rest
+requests
+djangorestframework
+# djangorestframework-filters
+# -e git+https://github.com/philipn/django-rest-framework-filters.git#egg=djangorestframework-filters
+django-cors-headers
+drf-yasg
+
+# data
+PyYAML
+
+# Command
+django-click
+
+# Tags 
+django-taggit
+
+# tests
+factory_boy
+tox
+coverage
+django_nose
+
+# robots sitemap
+django-robots
+
+# Geo
+geoip2 
+
+# Google Keep
+gkeepapi

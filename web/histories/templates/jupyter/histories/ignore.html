@@ -1,0 +1,9 @@
+<table>
+    {% for obj in qs %}
+    <tr>
+      <td>{{ obj.id }}</td>
+      <td>{{ obj.pattern }}</td>
+      <td>{{ obj.is_domain }}</td>
+    </tr>
+    {% endfor %}
+    </table>

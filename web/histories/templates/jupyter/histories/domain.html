@@ -1,0 +1,9 @@
+<table>
+    {% for obj in qs %}
+    <tr>
+      <td>{{ obj.id }}</td>
+      <td>{{ obj.hostname }}</td>
+      <td>{{ obj.stock }}</td>
+    </tr>
+    {% endfor %}
+</table>

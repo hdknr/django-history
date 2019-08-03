@@ -1,0 +1,57 @@
+*.log
+*.pyc
+*.retry
+.svn
+*.sqlite3
+
+# editors
+.vscode
+.ropeproject
+*~
+.*~
+*.swp
+
+# python
+*.egg-info
+build
+dist
+backups
+
+# django projects
+media
+components
+docs/build
+logs
+archives
+node_modules
+web/app/local_settings.py
+web/static
+web/theme/static/lib
+yarn.lock
+web/webapp/static/webapp
+
+# tesging
+cover
+.coverage
+.tox
+tmp
+
+# mac
+.DS_Store
+
+# Ansible
+ansible/hosts.conf
+ansible/ssh.conf
+
+# vue.js 
+node_modules
+package-lock.json
+web/ui/static/bundles
+web/ui/modules.json
+web/ui/sources.json
+web/data
+
+# jupyter 
+.ipynb_checkpoints
+*.ipynb
+web/notebooks

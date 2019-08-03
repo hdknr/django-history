@@ -1,0 +1,6 @@
+[submodule "pkgs/django-rest-framework-filters"]
+	path = pkgs/django-rest-framework-filters
+	url = https://github.com/philipn/django-rest-framework-filters.git
+[submodule "pkgs/django-mylinks"]
+	path = pkgs/django-mylinks
+	url = https://github.com/hdknr/django-mylinks.git
