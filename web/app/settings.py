@@ -120,7 +120,8 @@ APP_APPS = [
     'rest_framework', 'django_filters', 'rest_framework_filters', 'corsheaders', 'drf_yasg',
     'robots',   # robots.txt
     'taggit',
-    'mylinks', 'mytaggit',
+    'mytaggit',
+    'feeds',
     'chrome', 'histories', 'pages', 'services',
 ]
 APP_MIDDLEWARES = [

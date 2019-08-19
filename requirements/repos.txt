@@ -1,1 +1,2 @@
 -e git+https://github.com/hdknr/django-mytaggit#egg=django-mytaggit
+-e git+https://github.com/hdknr/django-myfeeds#egg=django-myfeeds
