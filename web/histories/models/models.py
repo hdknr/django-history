@@ -1,5 +1,4 @@
 from django.db import models
-# from taggit.managers import TaggableManager
 from mytaggit.models import TaggableManager
 from . import querysets, methods
 
@@ -37,7 +36,7 @@ class Link(models.Model, methods.Link):
     enabled = models.BooleanField(default=True)
     updated_at = models.DateTimeField(auto_now=True)
 
-    tags = TaggableManager(blank=True)
+    tags = TaggableManager(blank=True, related_name="HistoryLink")
 
     class Meta:
         ordering = ['-updated_at']

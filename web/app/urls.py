@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path('markdownx/', include('markdownx.urls')),
     path('robots.txt', include('robots.urls')),
     path('admin/', admin.site.urls),
     path('docs/', include('docs.urls')),

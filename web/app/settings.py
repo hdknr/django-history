@@ -116,12 +116,11 @@ APP_APPS = [
     'django.contrib.sitemaps',
     'django.contrib.sites',
     'django_extensions', 
-    # REST
-    'rest_framework', 'django_filters', 'rest_framework_filters', 'corsheaders', 'drf_yasg',
+    'rest_framework', 'django_filters', 'rest_framework_filters', 'corsheaders', 'drf_yasg', # REST
     'robots',   # robots.txt
-    'taggit',
-    'mytaggit',
-    'feeds',
+    'widget_tweaks', # Templates
+    'mytaggit', 'mylinks', # 'feeds', # 'taggit',
+    'markdownx',    # Markdown
     'chrome', 'histories', 'pages', 'services',
 ]
 APP_MIDDLEWARES = [
