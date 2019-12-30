@@ -5,13 +5,20 @@ msgpack
 django
 django-extensions
 
+# Templates
+django-widget-tweaks
+
 # Rest
 requests
 djangorestframework
 # djangorestframework-filters
-# -e git+https://github.com/philipn/django-rest-framework-filters.git#egg=djangorestframework-filters
+-e git+https://github.com/philipn/django-rest-framework-filters.git#egg=djangorestframework-filters
 django-cors-headers
 drf-yasg
+
+# Markdown
+# django-markdownx
+-e https://github.com/hdknr/django-markdownx.git@django3#egg=django-markdownx
 
 # data
 PyYAML
