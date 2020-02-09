@@ -122,6 +122,7 @@ APP_APPS = [
     'mytaggit', 'mylinks', # 'feeds', # 'taggit',
     'markdownx',    # Markdown
     'chrome', 'histories', 'pages', 'services',
+    'accounts',
 ]
 APP_MIDDLEWARES = [
     'corsheaders.middleware.CorsMiddleware',
